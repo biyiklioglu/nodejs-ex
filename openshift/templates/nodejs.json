@@ -26,8 +26,8 @@
         "ports": [
           {
             "name": "web",
-            "port": 8080,
-            "targetPort": 8080
+            "port": 8090,
+            "targetPort": 8090
           }
         ],
         "selector": {
@@ -155,7 +155,7 @@
                 "image": "nodejs-example",
                 "ports": [
                   {
-                    "containerPort": 8080
+                    "containerPort": 8090
                   }
                 ],
                 "env": [
@@ -191,7 +191,7 @@
     {
       "name": "SOURCE_REPOSITORY_URL",
       "description": "The URL of the repository with your application source code",
-      "value": "https://github.com/openshift/nodejs-ex.git"
+      "value": "https://github.com/biyiklioglu/nodejs-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
