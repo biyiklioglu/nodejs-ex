@@ -155,7 +155,7 @@
                 "image": "nodejs-mongodb-example",
                 "ports": [
                   {
-                    "containerPort": 8080
+                    "containerPort": 8090
                   }
                 ],
                 "env": [
