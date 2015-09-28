@@ -1,7 +1,7 @@
 Node.js sample app on OpenShift!
 -----------------
 
-This example will serve a welcome page and the current hit count as stored in a database to [http://host:8080](http://host:8080).
+This example will serve a welcome page and the current hit count as stored in a database to [http://host:8090](http://host:8090).
 
 ### OpenShift setup ###
 
